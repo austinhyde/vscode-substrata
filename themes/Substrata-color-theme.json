@@ -72,8 +72,28 @@
 		//
 		// diffs
 		// TODO: add foregrounds when supported by vscode
-		"diffEditor.insertedTextBackground": "#1c2316",
-		"diffEditor.removedTextBackground": "#2d1d16",
+		"diffEditor.insertedTextBackground": "#1c231688",
+		"diffEditor.removedTextBackground": "#2d1d1688",
+		//
+		// terminal colors
+		"terminal.background": "#191c25",
+		"terminal.foreground": "#b5b4c9",
+		"terminal.ansiBlack": "#2e313d",
+		"terminal.ansiBrightBlack": "#5b5f71",
+		"terminal.ansiRed": "#cf8164",
+		"terminal.ansiBrightRed": "#fe9f7c",
+		"terminal.ansiGreen": "#76a065",
+		"terminal.ansiBrightGreen": "#92c47e",
+		"terminal.ansiYellow": "#ab924c",
+		"terminal.ansiBrightYellow": "#d2b45f",
+		"terminal.ansiBlue": "#8296b0",
+		"terminal.ansiBrightBlue": "#a0b9d8",
+		"terminal.ansiMagenta": "#a18daf",
+		"terminal.ansiBrightMagenta": "#c6aed7",
+		"terminal.ansiCyan": "#659ea2",
+		"terminal.ansiBrightCyan": "#7dc2c7",
+		"terminal.ansiWhite": "#b5b4c9",
+		"terminal.ansiBrightWhite": "#f0ecfe",
 		//
 		// specific plugins
 		"errorLens.errorBackground": "#2d1d16",
