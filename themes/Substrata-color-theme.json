@@ -66,7 +66,8 @@
 		"editor.lineHighlightBackground": "#20222d",
 		"editor.findMatchBackground": "#ea5c0055",
 		"editor.findMatchHighlightBackground": "#2e313d55",
-		"editor.selectionBackground": "#6c6f82", // selected text
+		// TODO add selection foreground when supported by vscode
+		"editor.selectionBackground": "#3c3f4e", // selected text
 		"editor.selectionHighlightBackground": "#20222d", // other instances of selected text
 		"editor.wordHighlightBackground": "#27293555", // other instances of word under cursor
 		//
