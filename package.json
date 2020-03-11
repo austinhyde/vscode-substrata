@@ -1,0 +1,21 @@
+{
+    "name": "substrata",
+    "displayName": "substrata",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Substrata",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Substrata-color-theme.json"
+            }
+        ]
+    }
+}
