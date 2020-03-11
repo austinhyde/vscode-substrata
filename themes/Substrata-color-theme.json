@@ -26,31 +26,39 @@
 	"name": "Substrata",
 	"type": "dark",
 	"colors": {
+		// core colors
 		"foreground": "#b5b4c9",
 		"selection.background": "#6c6f82",
 		"errorForeground": "#cf8164",
 		"icon.foreground": "#b5b4c9",
+		// 
+		// window chrome
 		"titleBar.activeBackground": "#272935",
-
+		// 
+		// activity bar
 		"activityBar.background": "#191c25",
 		"activityBar.border": "#20222d",
 		"activityBarBadge.background": "#8296b0",
 		"activityBarBadge.foreground": "#b5b4c9",
-
+		// 
+		// tabs
 		"editorGroupHeader.tabsBackground": "#191c25",
 		"editorGroupHeader.tabsBorder": "#20222d",
 		"tab.activeBackground": "#272935",
 		"tab.inactiveBackground": "#191c25",
 		"tab.border": "#20222d",
-
+		// 
+		// status bar
 		"statusBar.background": "#272935",
 		"statusBar.foreground": "#b5b4c9",
-
+		// 
+		// sidebar
 		"sideBar.background": "#191c25",
 		"sideBar.foreground": "#b5b4c9",
 		"sideBar.border": "#20222d",
 		"sideBarTitle.foreground": "#b5b4c9",
-
+		// 
+		// editor
 		"editor.background": "#191c25",
 		"editor.foreground": "#b5b4c9",
 		"editorLineNumber.activeForeground": "#6c6f82",
@@ -58,12 +66,24 @@
 		"editor.lineHighlightBackground": "#20222d",
 		"editor.findMatchBackground": "#ea5c0055",
 		"editor.findMatchHighlightBackground": "#2e313d55",
-		// selected text
-		"editor.selectionBackground": "#6c6f82",
-		// other instances of selected text
-		"editor.selectionHighlightBackground": "#20222d",
-		// other instances of word under cursor
-		"editor.wordHighlightBackground": "#27293555",
+		"editor.selectionBackground": "#6c6f82", // selected text
+		"editor.selectionHighlightBackground": "#20222d", // other instances of selected text
+		"editor.wordHighlightBackground": "#27293555", // other instances of word under cursor
+		//
+		// diffs
+		// TODO: add foregrounds when supported by vscode
+		"diffEditor.insertedTextBackground": "#1c2316",
+		"diffEditor.removedTextBackground": "#2d1d16",
+		//
+		// specific plugins
+		"errorLens.errorBackground": "#2d1d16",
+		"errorLens.errorForeground": "#cf8164",
+		"errorLens.warningBackground": "#262011",
+		"errorLens.warningForeground": "#ab924c",
+		"errorLens.hintBackground": "#1c2316",
+		"errorLens.hintForeground": "#76a065",
+		"errorLens.infoBackground": "#1c2316",
+		"errorLens.infoForeground": "#76a065",
 	},
 	"tokenColors": [
 		{
