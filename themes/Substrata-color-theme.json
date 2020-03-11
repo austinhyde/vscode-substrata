@@ -161,6 +161,7 @@
 				"punctuation.section.embedded",
 				"keyword.other.template",
 				"keyword.other.substitution",
+				"keyword.operator",
 			],
 			"settings": {
 				"foreground": "#6c6f82"
