@@ -91,12 +91,12 @@
 		// TODO: add foregrounds when supported by vscode
 		"diffEditor.insertedTextBackground": "#1c231688",
 		"diffEditor.removedTextBackground": "#2d1d1688",
-		"merge.commonContentBackground": "#2e313d",
-		"merge.commonHeaderBackground": "#2e313d",
+		"merge.commonContentBackground": "#2e313d22",
+		"merge.commonHeaderBackground": "#2e313d55",
 		"merge.currentContentBackground": "#76a06522",
-		"merge.currentHeaderBackground": "#76a065",
+		"merge.currentHeaderBackground": "#76a06555",
 		"merge.incomingContentBackground": "#8296b022",
-		"merge.incomingHeaderBackground": "#8296b0",
+		"merge.incomingHeaderBackground": "#8296b055",
 		//
 		// terminal colors
 		"terminal.background": "#191c25",
