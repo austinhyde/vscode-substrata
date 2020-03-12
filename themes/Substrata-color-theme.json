@@ -38,7 +38,7 @@
 		// activity bar
 		"activityBar.background": "#191c25",
 		"activityBar.border": "#20222d",
-		"activityBarBadge.background": "#8296b0",
+		"activityBarBadge.background": "#2e313d",
 		"activityBarBadge.foreground": "#b5b4c9",
 		// 
 		// tabs
@@ -57,6 +57,12 @@
 		"sideBar.foreground": "#b5b4c9",
 		"sideBar.border": "#20222d",
 		"sideBarTitle.foreground": "#b5b4c9",
+		"gitDecoration.addedResourceForeground": "#76a065",
+		"gitDecoration.deletedResourceForeground": "#cf8164",
+		"gitDecoration.modifiedResourceForeground": "#8296b0",
+		"gitDecoration.conflictingResourceForeground": "#a18daf",
+		"gitDecoration.ignoredResourceForeground": "#5b5f71",
+		"gitDecoration.untrackedResourceForeground": "#ab924c",
 		// 
 		// editor
 		"editor.background": "#191c25",
@@ -70,6 +76,16 @@
 		"editor.selectionBackground": "#3c3f4e", // selected text
 		"editor.selectionHighlightBackground": "#20222d", // other instances of selected text
 		"editor.wordHighlightBackground": "#27293555", // other instances of word under cursor
+		"editorGutter.addedBackground": "#76a065",
+		"editorGutter.deletedBackground": "#cf8164",
+		"editorGutter.modifiedBackground": "#8296b0",
+		"editorError.foreground": "#cf8164",
+		"editorWarning.foreground": "#ab924c",
+		"editorInfo.foreground": "#8296b0",
+		"problemsErrorIcon.foreground": "#cf8164",
+		"problemsWarningIcon.foreground": "#ab924c",
+		"problemsInfoIcon.foreground": "#8296b0",
+		"editorUnnecessaryCode.opacity": "#000000c0",
 		//
 		// diffs
 		// TODO: add foregrounds when supported by vscode
@@ -97,13 +113,13 @@
 		"terminal.ansiBrightWhite": "#f0ecfe",
 		//
 		// specific plugins
-		"errorLens.errorBackground": "#2d1d16",
+		"errorLens.errorBackground": "#2d1d1655",
 		"errorLens.errorForeground": "#cf8164",
-		"errorLens.warningBackground": "#262011",
+		"errorLens.warningBackground": "#26201155",
 		"errorLens.warningForeground": "#ab924c",
-		"errorLens.hintBackground": "#1c2316",
+		"errorLens.hintBackground": "#1c231655",
 		"errorLens.hintForeground": "#76a065",
-		"errorLens.infoBackground": "#1c2316",
+		"errorLens.infoBackground": "#1c231655",
 		"errorLens.infoForeground": "#76a065",
 	},
 	"tokenColors": [
