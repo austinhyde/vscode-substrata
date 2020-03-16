@@ -74,7 +74,7 @@
 		"editor.findMatchHighlightBackground": "#2e313d55",
 		// TODO add selection foreground when supported by vscode
 		"editor.selectionBackground": "#3c3f4e", // selected text
-		"editor.selectionHighlightBackground": "#20222d", // other instances of selected text
+		"editor.selectionHighlightBackground": "#2e313d", // other instances of selected text
 		"editor.wordHighlightBackground": "#27293555", // other instances of word under cursor
 		"editorGutter.addedBackground": "#76a065",
 		"editorGutter.deletedBackground": "#cf8164",
@@ -177,7 +177,7 @@
 		{
 			"name": "Constants and Literals",
 			"scope": [
-				"constant.numeric",  // number literal
+				"constant.numeric", // number literal
 				"constant.language", // "nil" "true"
 				"support.constant",
 				"constant.character",
@@ -196,7 +196,7 @@
 			"scope": [
 				"string", // string literal
 				"constant.other.symbol", // ":hello" in ruby
-				"constant.other.key", 
+				"constant.other.key",
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
