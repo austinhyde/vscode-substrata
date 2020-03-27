@@ -165,6 +165,17 @@
 			}
 		},
 		{
+			// Some languages (cough, python) treat all their arguments as sub-scoped from meta.function-call
+			// and therefore _everything_ is italicized
+			"name": "Function call arguments",
+			"scope": [
+				"meta.function-call.arguments",
+			],
+			"settings": {
+				"fontStyle": ""
+			},
+		},
+		{
 			"name": "Special/Builtin Variables",
 			"scope": [
 				"variable.language", // "this" "self"
