@@ -23,6 +23,11 @@
 // Color: red_wash     #2d1d16 ~
 // Color: green_wash   #1c2316 ~
 // Color: yellow_wash  #262011 ~
+
+// TODO:
+// - Find dialog
+// - Debug view
+// - hovers & suggestions
 {
 	"name": "Substrata",
 	"type": "dark",
@@ -32,9 +37,16 @@
 		"selection.background": "#6c6f82",
 		"errorForeground": "#cf8164",
 		"icon.foreground": "#b5b4c9",
-		"dropdown.background": "#191c25",
+		"dropdown.background": "#272935",
 		"dropdown.border": "#191c25",
 		"dropdown.foreground": "#b5b4c9",
+		"button.background": "#3c3f4e",
+		"button.foreground": "#b5b4c9",
+		"input.background": "#272935",
+		"input.foreground": "#b5b4c9",
+		"checkbox.background": "#272935",
+		"checkbox.foreground": "#b5b4c9",
+		"focusBorder": "#2e313d",
 		// 
 		// window chrome
 		"titleBar.activeBackground": "#191c25",
@@ -51,27 +63,70 @@
 		"editorGroupHeader.tabsBackground": "#191c25",
 		"editorGroupHeader.tabsBorder": "#20222d",
 		"tab.activeBackground": "#272935",
-		"tab.inactiveBackground": "#191c25",
 		"tab.activeForeground": "#b5b4c9",
+		"tab.inactiveBackground": "#191c25",
 		"tab.border": "#20222d",
+		"tab.activeModifiedBorder": "#8296b0",
 		"panelTitle.activeForeground": "#b5b4c9",
-		"panelInput.border": "#191c25",
 		// 
 		// status bar
 		"statusBar.background": "#272935",
 		"statusBar.foreground": "#b5b4c9",
+		"statusBar.debuggingBackground": "#1c2316",
+		"statusBar.noFolderBackground": "#2d1d16",
 		// 
 		// sidebar
 		"sideBar.background": "#191c25",
 		"sideBar.foreground": "#b5b4c9",
 		"sideBar.border": "#20222d",
 		"sideBarTitle.foreground": "#b5b4c9",
+		"sideBarSectionHeader.background": "#272935",
+		"sideBarSectionHeader.foreground": "#b5b4c9",
 		"gitDecoration.addedResourceForeground": "#76a065",
 		"gitDecoration.deletedResourceForeground": "#cf8164",
 		"gitDecoration.modifiedResourceForeground": "#8296b0",
 		"gitDecoration.conflictingResourceForeground": "#a18daf",
 		"gitDecoration.ignoredResourceForeground": "#5b5f71",
 		"gitDecoration.untrackedResourceForeground": "#ab924c",
+		//
+		// list views
+		"list.focusOutline": "#0000",
+		"list.errorForeground": "#cf8164",
+		//
+		// icons
+		"symbolIcon.objectForeground": "#6c6f82",
+		"symbolIcon.structForeground": "#6c6f82",
+		"symbolIcon.moduleForeground": "#6c6f82",
+		"symbolIcon.operatorForeground": "#6c6f82",
+		"symbolIcon.functionForeground": "#a18daf",
+		"symbolIcon.methodForeground": "#a18daf",
+		"symbolIcon.constructorForeground": "#c6aed7",
+		"symbolIcon.fieldForeground": "#8296b0",
+		"symbolIcon.interfaceForeground": "#659ea2",
+		"symbolIcon.classForeground": "#ab924c",
+		"symbolIcon.enumeratorForeground": "#ab924c",
+		"symbolIcon.enumeratorMemberForeground": "#a0b9d8",
+		"symbolIcon.propertyForeground": "#a0b9d8",
+		"symbolIcon.variableForeground": "#a0b9d8",
+		"symbolIcon.constantForeground": "#76a065",
+		"symbolIcon.stringForeground": "#76a065",
+		"symbolIcon.keyForeground": "#76a065",
+		// "symbolIcon.arrayForeground": "#ff0000",
+		// "symbolIcon.booleanForeground": "#ff0000",
+		// "symbolIcon.colorForeground": "#ff0000",
+		// "symbolIcon.eventForeground": "#ff0000",
+		// "symbolIcon.fileForeground": "#ff0000",
+		// "symbolIcon.folderForeground": "#ff0000",
+		// "symbolIcon.keywordForeground": "#ff0000",
+		// "symbolIcon.namespaceForeground": "#ff0000",
+		// "symbolIcon.nullForeground": "#ff0000",
+		// "symbolIcon.numberForeground": "#ff0000",
+		// "symbolIcon.packageForeground": "#ff0000",
+		// "symbolIcon.referenceForeground": "#ff0000",
+		// "symbolIcon.snippetForeground": "#ff0000",
+		// "symbolIcon.textForeground": "#ff0000",
+		// "symbolIcon.typeParameterForeground": "#ff0000",
+		// "symbolIcon.unitForeground": "#ff0000",
 		// 
 		// editor
 		"editor.background": "#191c25",
@@ -82,8 +137,7 @@
 		"editor.lineHighlightBackground": "#20222d",
 		"editor.findMatchBackground": "#ea5c0055",
 		"editor.findMatchHighlightBackground": "#2e313d55",
-		// TODO add selection foreground when supported by vscode
-		"editor.selectionBackground": "#3c3f4e", // selected text
+		"editor.selectionBackground": "#5b5f7144", // selected text
 		"editor.selectionHighlightBackground": "#2e313d", // other instances of selected text
 		"editor.wordHighlightBackground": "#27293555", // other instances of word under cursor
 		"editorGutter.addedBackground": "#76a065",
