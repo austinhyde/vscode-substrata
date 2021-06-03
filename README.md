@@ -1,4 +1,4 @@
-# README
+# Substrata
 
 A cold, dark color theme for VSCode.
 

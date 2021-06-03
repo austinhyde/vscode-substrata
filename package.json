@@ -1,30 +1,35 @@
 {
-    "name": "vscode-theme-substrata",
-    "displayName": "Substrata",
-    "description": "A cold, dark color theme for VS Code, based on vim-substrata",
-    "version": "1.0.0",
-    "license": "MIT",
-    "publisher": "austinhyde",
-    "engines": {
-        "vscode": "^1.43.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Substrata",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Substrata-color-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/austinhyde/vscode-substrata.git"
-    },
-    "bugs": {
-        "url": "https://github.com/austinhyde/vscode-substrata/issues"
-    }
+	"name": "vscode-theme-substrata",
+	"displayName": "Substrata",
+	"description": "A cold, dark color theme for VS Code, based on vim-substrata",
+	"version": "1.0.0",
+	"license": "MIT",
+	"publisher": "austinhyde",
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Substrata",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Substrata-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/austinhyde/vscode-substrata.git"
+	},
+	"bugs": {
+		"url": "https://github.com/austinhyde/vscode-substrata/issues"
+	},
+	"__metadata": {
+		"id": "dbbc064a-18ea-4d0c-89fb-685dfddb788d",
+		"publisherDisplayName": "austinhyde",
+		"publisherId": "3ddd5412-9a8d-4381-8a7d-079fd4eff708"
+	}
 }
